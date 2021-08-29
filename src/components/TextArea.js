@@ -51,7 +51,7 @@ export default function TextArea(props) {
  <button className="btn btn-primary mx-1" onClick = {handleloclick}>Convert to lower case</button>
  <button className="btn btn-primary mx-1" onClick = {handleClear}>Clear Text</button>
  <button className="btn btn-primary mx-1"  onClick = {handleCopy}>Copy Text</button>
- <button className="btn btn-primary mx-1"  onClick = {handleExtraSpace}>Remove Extra Spaces</button>
+ <button className="btn btn-primary mx-1 my-2"  onClick = {handleExtraSpace}>Remove Extra Spaces</button>
  
  <div className="container my-2" style = {{color:props.mode==='dark'?'white':'black'}}>
      <h2>Your text summary</h2>
